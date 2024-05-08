@@ -7,6 +7,7 @@ const inititalState = {
 const counterReducer = (state = inititalState, action) => {
   switch (action.type) {
     case INCREMENT:
+      console.log("Emad");
       return {
         ...state,
         count: state.count + 1,

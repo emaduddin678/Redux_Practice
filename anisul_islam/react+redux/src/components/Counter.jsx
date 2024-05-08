@@ -8,6 +8,7 @@ const Counter = () => {
   const dispatch = useDispatch();
   const handleIncrement = () => {
     dispatch(increment());
+    console.log("Hello")
   };
   return (
     <div>
